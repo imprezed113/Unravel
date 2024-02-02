@@ -3,6 +3,8 @@ Modified 2/1/2024
 
 !! NOTE - AT THIS TIME ONLY ZIP ARCHIVES ARE SUPPORTED. THIS SOFTWARE IS EARLY BETA!!
 
+This project uses the python zip & shutil modules. It was created in VScode using Python 3.11
+
 First specify the working directory. This folder is the location Unravel will bulk extract zip files.
 Next specify the extract folder. This is the location the extracted files will be placed on your filesystem.
 Finally specify the archive folder which is the directory the source zip archives will be moved to after processing.
