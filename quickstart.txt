@@ -1,0 +1,15 @@
+Unravel quick start guide v 1.0
+Modified 2/1/2024
+
+!! NOTE - AT THIS TIME ONLY ZIP ARCHIVES ARE SUPPORTED. THIS SOFTWARE IS EARLY BETA!!
+
+First specify the working directory. This folder is the location Unravel will bulk extract zip files.
+Next specify the extract folder. This is the location the extracted files will be placed on your filesystem.
+Finally specify the archive folder which is the directory the source zip archives will be moved to after processing.
+
+After the directories are specified Unravel will extract everey file inside the working directory that ends with .zip.
+Upon completion Unravel will report what files were moved to the archive folder.
+
+TO DO:
+Add logging
+Add support for other archive formats
