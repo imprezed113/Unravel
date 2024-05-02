@@ -14,8 +14,10 @@ p = input('Specify working directory directory ')
 e = input('Specify extraction folder ')
 a = input('Specify arcchive directory ')
 
+
 print('This utility will unzip all archive files in the target directory in one pass')
 
+#Validates existance of directories
 if os.path.exists(p):
     print('Working directory exists')
 else:
